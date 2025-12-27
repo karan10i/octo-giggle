@@ -1,0 +1,33 @@
+.upbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  position: fixed; /* Added to fix the navbar at the top */
+}
+
+.navbar-center .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-center .nav-links li {
+  margin-right: 1rem;
+}
+
+.navbar-center .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-center .nav-links a:hover {
+  color: red;
+}
