@@ -1,8 +1,7 @@
-import Navbar from './../navbar'
+import Navbar from '../components/navbar'
 export default function HomePage() {
     return (
         <div>
-        
             <Navbar></Navbar>
             </div>
     )
