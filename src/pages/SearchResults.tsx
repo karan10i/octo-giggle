@@ -59,7 +59,6 @@ export default function SearchResults() {
 
     return (
         <div>
-            <Search />
             <div className="search-results-container">
                 <h1>Search Results for "{query}"</h1>
 
