@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { TMDB } from "@lorenzopant/tmdb";
-import Search from "../components/search";
 import "./SearchResults.css"; // Import the CSS file for styling
 
 const tmdb = new TMDB(import.meta.env.VITE_TMDB_ACCESS_TOKEN);
